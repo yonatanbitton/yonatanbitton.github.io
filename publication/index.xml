@@ -5,7 +5,7 @@
     <link>https://yonatanbitton.github.io/publication/</link>
       <atom:link href="https://yonatanbitton.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Icons made by Smashicons from www.flaticon.com</copyright><lastBuildDate>Wed, 17 Mar 2021 16:17:07 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Icons made by Smashicons from www.flaticon.com</copyright><lastBuildDate>Sun, 05 Sep 2021 16:17:07 +0000</lastBuildDate>
     <image>
       <url>https://yonatanbitton.github.io/media/icon_hu36fe5d02a7a8c0153faf9a2476a5266c_16606_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>Automatic Generation of Contrast Sets from Scene Graphs</title>
-      <link>https://yonatanbitton.github.io/publication/contrast_sets/</link>
-      <pubDate>Wed, 17 Mar 2021 16:17:07 +0000</pubDate>
-      <guid>https://yonatanbitton.github.io/publication/contrast_sets/</guid>
+      <title>Data Efficient Masked Language Modeling for Vision and Language</title>
+      <link>https://yonatanbitton.github.io/publication/data_efficient/</link>
+      <pubDate>Sun, 05 Sep 2021 16:17:07 +0000</pubDate>
+      <guid>https://yonatanbitton.github.io/publication/data_efficient/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Data Efficient Masked Language Modeling for Vision and Language</title>
-      <link>https://yonatanbitton.github.io/publication/data_efficient/</link>
+      <title>Automatic Generation of Contrast Sets from Scene Graphs</title>
+      <link>https://yonatanbitton.github.io/publication/contrast_sets/</link>
       <pubDate>Wed, 17 Mar 2021 16:17:07 +0000</pubDate>
-      <guid>https://yonatanbitton.github.io/publication/data_efficient/</guid>
+      <guid>https://yonatanbitton.github.io/publication/contrast_sets/</guid>
       <description></description>
     </item>
     
