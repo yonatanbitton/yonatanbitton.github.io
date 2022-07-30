@@ -11,6 +11,14 @@
       <title>Publications</title>
       <link>https://yonatanbitton.github.io/publication/</link>
     </image>
+
+    <item>
+      <title>WinoGAViL: Gamified Association Benchmark to Challenge Vision-and-Language Models</title>
+      <link>https://yonatanbitton.github.io/publication/winogavil/</link>
+      <pubDate>Mon, 25 Jul 2021 20:04:01 +0000</pubDate>
+      <guid>https://yonatanbitton.github.io/publication/winogavil/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Data Efficient Masked Language Modeling for Vision and Language</title>
