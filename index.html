@@ -444,107 +444,196 @@
       </div>
 
 
-<h3>Students</h3>
-<p>
-    I've had the opportunity to collaborate with several MSc and PhD students towards their publication goals:
-</p>
+<!-- ──────────────────────────────────────────────────
+     STUDENTS  (collapsible • badge count • global toggles)
+     ────────────────────────────────────────────────── -->
+<section id="students" class="home-section wg-students">
+  <style>
+    /* Layout & visuals */
+    #students details         { margin:.25rem 0 }
+    #students summary         { cursor:pointer; user-select:none }
+    #students .badge-count    { background:#1565c0; color:#fff;
+                                font-size:.75rem; margin-left:.40rem }
+    #students .paper-link     { display:block; padding:.1rem 0 .1rem 1.2rem }
+    #students .toggle-btn     { margin:.5rem .25rem .9rem 0 }
+  </style>
 
-<ul class="ul-edu fa-ul mb-0">
-   <li>
-    <strong><a href="https://gordonhu608.github.io/" target="_blank" rel="noopener">Wenbo (Gordon) Hu</a> (UCLA University)</strong> – 
-    <a href="https://3dllm-mem.github.io/" target="_blank" rel="noopener">3DLLM-Mem</a>: Long-Term Spatial-Temporal Memory for Embodied 3D Large Language Model
-  </li>
-  <li>
-    <li>
-    <strong><a href="https://scholar.google.com/citations?hl=en&user=VNDhTycAAAAJ" target="_blank" rel="noopener">Brian Gordon</a> (Tel-Aviv University)</strong> –
-    <ul>
-      <li><a href="https://mismatch-quest.github.io/" target="_blank" rel="noopener">Mismatch Quest:</a> Visual and Textual Feedback for Image-Text Misalignment</li>
-      <li><a href="https://google.github.io/unblocking-detail-caption/" target="_blank" rel="noopener">Unblocking Fine-Grained Evaluation of Detailed Captions:</a> An Explaining AutoRater and Critic-and-Revise Pipeline</li>
-    </ul>
-  </li>
-  <strong>
-    <a href="https://scholar.google.com/citations?user=oAy77cgAAAAJ&hl=en" target="_blank" rel="noopener">
-      Aviv Slobodkin
-    </a> (Bar-Ilan University)
-  </strong> – 
-  <a href="https://arxiv.org/abs/2504.17502" target="_blank" rel="noopener">
-    RefVNLI:
-  </a> Towards Scalable Evaluation of Subject-driven Text-to-image Generation
-</li>
-  <li>
-    <strong><a href="https://scholar.google.com/citations?user=ZsXf6OMAAAAJ&hl=en" target="_blank" rel="noopener">Moran Yanuka</a> (Tel Aviv University)</strong> - <a href="https://arxiv.org/abs/2411.09018v1" target="_blank" rel="noopener">Bridging the Visual Gap:</a> Fine-Tuning Multimodal Models with Knowledge-Adapted Captions
-  </li>
-  <li>
-    <strong><a href="https://venturamor.github.io/" target="_blank" rel="noopener">Mor Ventura</a> (Technion)</strong> - <a href="https://venturamor.github.io/NLEye/" target="_blank" rel="noopener">NL-Eye:</a> Abductive NLI for Images
-  </li>
-    <li>
-        <strong><a href="https://orrzohar.github.io/" target="_blank" rel="noopener">Orr Zohar</a> (Stanford)</strong> - <a href="https://orrzohar.github.io/projects/video-star/" target="_blank" rel="noopener">Video-STaR</a>: Bootstrapping Weak Video Supervision for Visual Instruction Tuning
-    </li>
-    <li>
-        <strong><a href="https://sites.google.com/view/hbansal" target="_blank" rel="noopener">Hritik Bansal</a> (UCLA)</strong> -
-        <ul>
-            <li><a href="https://videophy2.github.io/" target="_blank" rel="noopener">VideoPhy2:</a> Challenging Action-Centric Physical Commonsense Evaluation of Video Generation</li>
-            <li><a href="https://videophy.github.io/" target="_blank" rel="noopener">VideoPhy:</a> Evaluating Physical Commonsense In Video Generation</li>
-            <li><a href="https://talc-mst2v.github.io/" target="_blank" rel="noopener">TALC:</a> Time-Aligned Captions for Multi-Scene Text-to-Video Generation</li>
-            <li><a href="https://video-con.github.io/" target="_blank" rel="noopener">Video-Con:</a> Robust Video-Language Alignment via Contrast Captions</li>
-        </ul>
-    </li>
-    <li>
-        <strong><a href="https://scholar.google.com/citations?user=bIV6JQ0AAAAJ&hl=en" target="_blank" rel="noopener">Nitzan Bitton-Guetta</a> (Ben Gurion)</strong> -
-        <ul>
-            <li><a href="https://whoops-benchmark.github.io/" target="_blank" rel="noopener">WHOOPS!</a> Commonsense-defying image with text-to-image models</li>
-            <li><a href="https://visual-riddles.github.io/" target="_blank" rel="noopener">Visual Riddles</a>: a Commonsense and World Knowledge Challenge for Large Vision and Language Models</li>
-        </ul>
-    </li>
-  <li>
-    <strong><a href="https://scholar.google.com/citations?hl=en&user=mhdOCG4AAAAJ" target="_blank" rel="noopener">Ron Yosef</a> (Hebrew University)</strong> –
-    <ul>
-      <li><a href="https://arxiv.org/abs/2303.15445" target="_blank" rel="noopener">IRFL:</a> Figurative language and visual metaphors</li>
-      <li><a href="https://editinspector.github.io/" target="_blank" rel="noopener">EditInspector:</a> A Benchmark for Evaluation of Text-Guided Image Edits</li>
-    </ul>
-  </li>
-     <li>
-          <strong><a href="https://scholar.google.com/citations?hl=en&user=KHBd12kAAAAJ" target="_blank" rel="noopener">Oren Sultan</a> (Hebrew University)</strong> - <a href="https://arxiv.org/abs/2403.01139" target="_blank" rel="noopener">ParallelPARC:</a> A Scalable Pipeline for Generating Natural-Language Analogies
-      </li>
-  <li>
-    <strong>Netta Madvil (Hebrew University)</strong> - <a href="https://arxiv.org/abs/2307.04532" target="_blank" rel="noopener">Read, Look or Listen?:</a> Multimodal models analysis
-  </li>
-</ul>
-    
-<p>
-    If you want to work together on vision-and-language research, feel free to shoot me an email.
-</p>
+  <div class="container">
+    <div class="section-heading">
+      <h1>Students</h1>
 
+      <!-- global show / collapse -->
+      <button class="btn btn-sm btn-outline-primary toggle-btn"
+              onclick="toggleDetails('#students','open')">
+        Show&nbsp;All
+      </button>
+      <button class="btn btn-sm btn-outline-primary toggle-btn"
+              onclick="toggleDetails('#students','close')">
+        Collapse&nbsp;All
+      </button>
     </div>
-  </section>
 
-  <!-- ───────────────────────────────────────────────────────────────
-     PAPERS BY VENUE  (3-column grid • collapsible • year badges)
-     ─────────────────────────────────────────────────────────── -->
+    <!-- ========== Student blocks ===================================== -->
+
+    <!-- 1. Wenbo (Gordon) Hu -->
+    <details>
+      <summary>
+        <strong><a href="https://gordonhu608.github.io/" target="_blank">Wenbo (Gordon) Hu</a></strong>
+        <span class="badge-count">1</span>
+      </summary>
+      <a class="paper-link" href="https://3dllm-mem.github.io/" target="_blank">3DLLM-Mem</a>
+    </details>
+
+    <!-- 2. Brian Gordon -->
+    <details>
+      <summary>
+        <strong><a href="https://scholar.google.com/citations?hl=en&user=VNDhTycAAAAJ" target="_blank">Brian Gordon</a></strong>
+        <span class="badge-count">2</span>
+      </summary>
+      <a class="paper-link" href="https://mismatch-quest.github.io/" target="_blank">Mismatch Quest</a>
+      <a class="paper-link" href="https://google.github.io/unblocking-detail-caption/" target="_blank">Unblocking Fine-Grained Caption Eval</a>
+    </details>
+
+    <!-- 3. Aviv Slobodkin -->
+    <details>
+      <summary>
+        <strong><a href="https://scholar.google.com/citations?user=oAy77cgAAAAJ&hl=en" target="_blank">Aviv Slobodkin</a></strong>
+        <span class="badge-count">1</span>
+      </summary>
+      <a class="paper-link" href="https://arxiv.org/abs/2504.17502" target="_blank">RefVNLI</a>
+    </details>
+
+    <!-- 4. Moran Yanuka -->
+    <details>
+      <summary>
+        <strong><a href="https://scholar.google.com/citations?user=ZsXf6OMAAAAJ&hl=en" target="_blank">Moran Yanuka</a></strong>
+        <span class="badge-count">1</span>
+      </summary>
+      <a class="paper-link" href="https://arxiv.org/abs/2411.09018v1" target="_blank">Bridging the Visual Gap</a>
+    </details>
+
+    <!-- 5. Mor Ventura -->
+    <details>
+      <summary>
+        <strong><a href="https://venturamor.github.io/" target="_blank">Mor Ventura</a></strong>
+        <span class="badge-count">1</span>
+      </summary>
+      <a class="paper-link" href="https://venturamor.github.io/NLEye/" target="_blank">NL-Eye</a>
+    </details>
+
+    <!-- 6. Orr Zohar -->
+    <details>
+      <summary>
+        <strong><a href="https://orrzohar.github.io/" target="_blank">Orr Zohar</a></strong>
+        <span class="badge-count">1</span>
+      </summary>
+      <a class="paper-link" href="https://orrzohar.github.io/projects/video-star/" target="_blank">VideoSTaR</a>
+    </details>
+
+    <!-- 7. Hritik Bansal -->
+    <details>
+      <summary>
+        <strong><a href="https://sites.google.com/view/hbansal" target="_blank">Hritik Bansal</a></strong>
+        <span class="badge-count">4</span>
+      </summary>
+      <a class="paper-link" href="https://videophy2.github.io/" target="_blank">VideoPhy2</a>
+      <a class="paper-link" href="https://videophy.github.io/" target="_blank">VideoPhy</a>
+      <a class="paper-link" href="https://talc-mst2v.github.io/" target="_blank">TALC</a>
+      <a class="paper-link" href="https://video-con.github.io/" target="_blank">Video-Con</a>
+    </details>
+
+    <!-- 8. Nitzan Bitton-Guetta -->
+    <details>
+      <summary>
+        <strong><a href="https://scholar.google.com/citations?user=bIV6JQ0AAAAJ&hl=en" target="_blank">Nitzan Bitton-Guetta</a></strong>
+        <span class="badge-count">2</span>
+      </summary>
+      <a class="paper-link" href="https://whoops-benchmark.github.io/" target="_blank">WHOOPS!</a>
+      <a class="paper-link" href="https://visual-riddles.github.io/" target="_blank">Visual Riddles</a>
+    </details>
+
+    <!-- 9. Ron Yosef -->
+    <details>
+      <summary>
+        <strong><a href="https://scholar.google.com/citations?hl=en&user=mhdOCG4AAAAJ" target="_blank">Ron Yosef</a></strong>
+        <span class="badge-count">2</span>
+      </summary>
+      <a class="paper-link" href="https://arxiv.org/abs/2303.15445" target="_blank">IRFL</a>
+      <a class="paper-link" href="https://editinspector.github.io/" target="_blank">EditInspector</a>
+    </details>
+
+    <!-- 10. Oren Sultan -->
+    <details>
+      <summary>
+        <strong><a href="https://scholar.google.com/citations?hl=en&user=KHBd12kAAAAJ" target="_blank">Oren Sultan</a></strong>
+        <span class="badge-count">1</span>
+      </summary>
+      <a class="paper-link" href="https://arxiv.org/abs/2403.01139" target="_blank">ParallelPARC</a>
+    </details>
+
+    <!-- 11. Netta Madvil -->
+    <details>
+      <summary><strong>Netta Madvil</strong><span class="badge-count">1</span></summary>
+      <a class="paper-link" href="https://arxiv.org/abs/2307.04532" target="_blank">Read, Look or Listen?</a>
+    </details>
+
+    <!-- ── Invitation paragraph (restored) ── -->
+    <p class="mt-3">
+      If you’d like to work together on vision-and-language research, feel free to
+      <a href="mailto:yonatanbitton1@gmail.com">send&nbsp;me&nbsp;an&nbsp;email</a>.
+    </p>
+
+  </div><!-- /.container -->
+</section>
+
+
+  <!-- ──────────────────────────────────────────────────
+     PAPERS BY VENUE  (3-column grid • collapsible • global toggles)
+     ────────────────────────────────────────────────── -->
 <section id="papers-by-venue" class="home-section wg-papers-by-venue">
   <style>
-    /* ——— Layout: 3 columns on ≥768 px ——— */
-    #papers-by-venue .year-col        { padding:0 .75rem 1.5rem }
-    @media (min-width:768px){         /* md */
-      #papers-by-venue .year-grid     { display:flex; flex-wrap:wrap }
-      #papers-by-venue .year-col      { flex:0 0 33.333%; max-width:33.333% }
+    /* Layout: 3 columns on ≥768 px */
+    #papers-by-venue .year-col       { padding:0 .75rem 1.5rem }
+    @media (min-width:768px){
+      #papers-by-venue .year-grid    { display:flex; flex-wrap:wrap }
+      #papers-by-venue .year-col     { flex:0 0 33.333%; max-width:33.333% }
     }
-    /* ——— Typography & visuals ——— */
-    #papers-by-venue h3.year-heading  { font-size:1.35rem; margin-bottom:.25rem }
-    #papers-by-venue details          { margin:.15rem 0 }
-    #papers-by-venue summary          { cursor:pointer; user-select:none }
-    #papers-by-venue .venue-badge     { font-size:0.75rem; margin-left:.35rem }
-    #papers-by-venue .paper-link      { display:block; padding:.1rem 0 .1rem 1.1rem }
-    #papers-by-venue .paper-link:hover{ text-decoration:underline }
-    /* ——— Year-level badge (orange) ——— */
-    #papers-by-venue .year-badge      {
-        background:#ff9800;           /* Wow-factor orange */
-        color:#fff;
-        font-size:.80rem;
-        vertical-align:middle;
-        margin-left:.45rem;
-    }
+    /* Typography & visuals */
+    #papers-by-venue h3.year-heading { font-size:1.35rem; margin-bottom:.25rem }
+    #papers-by-venue details         { margin:.15rem 0 }
+    #papers-by-venue summary         { cursor:pointer; user-select:none }
+    #papers-by-venue .venue-badge    { font-size:.75rem; margin-left:.35rem }
+    #papers-by-venue .paper-link     { display:block; padding:.12rem 0 .12rem 1.25rem }
+    #papers-by-venue .year-badge     { background:#ff9800; color:#fff;
+                                       font-size:.80rem; vertical-align:middle;
+                                       margin-left:.45rem }
+    #papers-by-venue .toggle-btn     { margin:.5rem .25rem .9rem 0 }
   </style>
+
+  <div class="home-section-bg"></div>
+  <div class="container">
+
+    <!-- heading + global toggles -->
+    <div class="section-heading">
+      <h1>Papers by Venue</h1>
+      <p class="text-muted mb-4">24&nbsp;peer-reviewed papers · 2021 – 2025</p>
+
+      <button class="btn btn-sm btn-outline-primary toggle-btn"
+              onclick="toggleDetails('#papers-by-venue','open')">
+        Show&nbsp;All
+      </button>
+      <button class="btn btn-sm btn-outline-primary toggle-btn"
+              onclick="toggleDetails('#papers-by-venue','close')">
+        Collapse&nbsp;All
+      </button>
+    </div>
+
+    <!-- YEAR GRID (unchanged from your previous HTML) -->
+    <!-- — copy / keep your full year-grid markup here — -->
+
+  </div><!-- /.container -->
+</section>
+
 
   <div class="home-section-bg"></div>
   <div class="container">
@@ -684,7 +773,20 @@
 
   </div><!-- /container -->
 </section>
-<!-- ───────────────────────────────────────────────────────────── -->
+
+
+    <script>
+/**
+ * Expand or collapse all <details> inside a section.
+ * @param {string} sectionSelector  e.g. "#students"
+ * @param {"open"|"close"} action
+ */
+function toggleDetails(sectionSelector, action){
+  const open = (action === "open");
+  document.querySelectorAll(sectionSelector + " details")
+          .forEach(d => d.open = open);
+}
+</script>
 
 
   <section id="publications" class="home-section wg-featured  "  >
