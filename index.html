@@ -775,19 +775,6 @@
 </section>
 
 
-    <script>
-/**
- * Expand or collapse all <details> inside a section.
- * @param {string} sectionSelector  e.g. "#students"
- * @param {"open"|"close"} action
- */
-function toggleDetails(sectionSelector, action){
-  const open = (action === "open");
-  document.querySelectorAll(sectionSelector + " details")
-          .forEach(d => d.open = open);
-}
-</script>
-
 
   <section id="publications" class="home-section wg-featured  "  >
     <div class="home-section-bg " >
@@ -3421,5 +3408,18 @@ function toggleDetails(sectionSelector, action){
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
   <script src="/en/js/wowchemy.min.d68ecd57c0ec1f1f61d65fd568f1c3a0.js"></script>
+
+        <script>
+/**
+ * Expand or collapse all <details> inside a section.
+ * @param {string} sectionSelector  e.g. "#students"
+ * @param {"open"|"close"} action
+ */
+function toggleDetails(sectionSelector, action){
+  const open = (action === "open");
+  document.querySelectorAll(sectionSelector + " details")
+          .forEach(d => d.open = open);
+}
+</script>
 </body>
 </html>
