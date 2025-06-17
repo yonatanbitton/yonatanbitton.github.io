@@ -442,13 +442,9 @@
         </ul>
       </div>
       </div>
-  </div>
 
 
 
-    <!-- ─────────────────────────────────────────────────────────────
-     STUDENTS  (full list • collapsible • global toggles)
-     ───────────────────────────────────────────────────────────── -->
 <section id="students" class="home-section wg-students">
 
   <!-- local styles -->
@@ -457,6 +453,9 @@
     #students details          { margin:.25rem 0 }
     #students summary          { cursor:pointer; user-select:none }
 
+    /* ---- enumeration ---- */
+    #students .student-num     { font-weight:600; margin-right:.40rem }
+
     /* ---- “# papers” pill ---- */
     #students .badge-count     { display:inline-block; min-width:1.4rem;
                                  padding:.10rem .45rem; margin-left:.45rem;
@@ -464,7 +463,7 @@
                                  background:#1565c0; color:#fff; }
 
     /* ---- paper links ---- */
-    #students .paper-link      { display:block; padding:.10rem 0 .10rem 1.3rem }
+    #students .paper-link      { display:block; padding:.10rem 0 .10rem 1.85rem }
 
     /* ---- Show / Collapse buttons ---- */
     #students .toggle-btn      { margin:.6rem .25rem .9rem 0 }
@@ -483,51 +482,86 @@
 
     <!-- 1. Wenbo (Gordon) Hu -->
     <details>
-      <summary><strong><a href="https://gordonhu608.github.io/" target="_blank">Wenbo&nbsp;(Gordon)&nbsp;Hu</a></strong>
-        <span class="badge-count">1</span></summary>
+      <summary>
+        <span class="student-num">1.</span>
+        <strong><a href="https://gordonhu608.github.io/" target="_blank">
+          Wenbo&nbsp;(Gordon)&nbsp;Hu</a></strong>
+        <small class="text-muted" style="margin-left:.35rem">(University&nbsp;of&nbsp;California,&nbsp;Los&nbsp;Angeles)</small>
+        <span class="badge-count">1</span>
+      </summary>
       <a class="paper-link" href="https://3dllm-mem.github.io/" target="_blank">3DLLM-Mem</a>
     </details>
 
     <!-- 2. Brian Gordon -->
     <details>
-      <summary><strong><a href="https://scholar.google.com/citations?hl=en&user=VNDhTycAAAAJ" target="_blank">Brian&nbsp;Gordon</a></strong>
-        <span class="badge-count">2</span></summary>
+      <summary>
+        <span class="student-num">2.</span>
+        <strong><a href="https://scholar.google.com/citations?hl=en&user=VNDhTycAAAAJ" target="_blank">
+          Brian&nbsp;Gordon</a></strong>
+        <small class="text-muted" style="margin-left:.35rem">(Tel-Aviv&nbsp;University)</small>
+        <span class="badge-count">2</span>
+      </summary>
       <a class="paper-link" href="https://mismatch-quest.github.io/" target="_blank">Mismatch&nbsp;Quest</a>
       <a class="paper-link" href="https://google.github.io/unblocking-detail-caption/" target="_blank">Unblocking&nbsp;Detailed&nbsp;Captions</a>
     </details>
 
     <!-- 3. Aviv Slobodkin -->
     <details>
-      <summary><strong><a href="https://scholar.google.com/citations?user=oAy77cgAAAAJ&hl=en" target="_blank">Aviv&nbsp;Slobodkin</a></strong>
-        <span class="badge-count">1</span></summary>
+      <summary>
+        <span class="student-num">3.</span>
+        <strong><a href="https://scholar.google.com/citations?user=oAy77cgAAAAJ&hl=en" target="_blank">
+          Aviv&nbsp;Slobodkin</a></strong>
+        <small class="text-muted" style="margin-left:.35rem">(Bar-Ilan&nbsp;University)</small>
+        <span class="badge-count">1</span>
+      </summary>
       <a class="paper-link" href="https://arxiv.org/abs/2504.17502" target="_blank">RefVNLI</a>
     </details>
 
     <!-- 4. Moran Yanuka -->
     <details>
-      <summary><strong><a href="https://scholar.google.com/citations?user=ZsXf6OMAAAAJ&hl=en" target="_blank">Moran&nbsp;Yanuka</a></strong>
-        <span class="badge-count">1</span></summary>
+      <summary>
+        <span class="student-num">4.</span>
+        <strong><a href="https://scholar.google.com/citations?user=ZsXf6OMAAAAJ&hl=en" target="_blank">
+          Moran&nbsp;Yanuka</a></strong>
+        <small class="text-muted" style="margin-left:.35rem">(Tel-Aviv&nbsp;University)</small>
+        <span class="badge-count">1</span>
+      </summary>
       <a class="paper-link" href="https://arxiv.org/abs/2411.09018v1" target="_blank">Bridging&nbsp;the&nbsp;Visual&nbsp;Gap</a>
     </details>
 
     <!-- 5. Mor Ventura -->
     <details>
-      <summary><strong><a href="https://venturamor.github.io/" target="_blank">Mor&nbsp;Ventura</a></strong>
-        <span class="badge-count">1</span></summary>
+      <summary>
+        <span class="student-num">5.</span>
+        <strong><a href="https://venturamor.github.io/" target="_blank">
+          Mor&nbsp;Ventura</a></strong>
+        <small class="text-muted" style="margin-left:.35rem">(Technion&nbsp;–&nbsp;Israel&nbsp;Institute&nbsp;of&nbsp;Technology)</small>
+        <span class="badge-count">1</span>
+      </summary>
       <a class="paper-link" href="https://venturamor.github.io/NLEye/" target="_blank">NL-Eye</a>
     </details>
 
     <!-- 6. Orr Zohar -->
     <details>
-      <summary><strong><a href="https://orrzohar.github.io/" target="_blank">Orr&nbsp;Zohar</a></strong>
-        <span class="badge-count">1</span></summary>
+      <summary>
+        <span class="student-num">6.</span>
+        <strong><a href="https://orrzohar.github.io/" target="_blank">
+          Orr&nbsp;Zohar</a></strong>
+        <small class="text-muted" style="margin-left:.35rem">(Stanford&nbsp;University)</small>
+        <span class="badge-count">1</span>
+      </summary>
       <a class="paper-link" href="https://orrzohar.github.io/projects/video-star/" target="_blank">Video-STaR</a>
     </details>
 
     <!-- 7. Hritik Bansal -->
     <details>
-      <summary><strong><a href="https://sites.google.com/view/hbansal" target="_blank">Hritik&nbsp;Bansal</a></strong>
-        <span class="badge-count">4</span></summary>
+      <summary>
+        <span class="student-num">7.</span>
+        <strong><a href="https://sites.google.com/view/hbansal" target="_blank">
+          Hritik&nbsp;Bansal</a></strong>
+        <small class="text-muted" style="margin-left:.35rem">(University&nbsp;of&nbsp;California,&nbsp;Los&nbsp;Angeles)</small>
+        <span class="badge-count">4</span>
+      </summary>
       <a class="paper-link" href="https://videophy2.github.io/" target="_blank">VideoPhy2</a>
       <a class="paper-link" href="https://videophy.github.io/" target="_blank">VideoPhy</a>
       <a class="paper-link" href="https://talc-mst2v.github.io/" target="_blank">TALC</a>
@@ -536,31 +570,50 @@
 
     <!-- 8. Nitzan Bitton-Guetta -->
     <details>
-      <summary><strong><a href="https://scholar.google.com/citations?user=bIV6JQ0AAAAJ&hl=en" target="_blank">Nitzan&nbsp;Bitton-Guetta</a></strong>
-        <span class="badge-count">2</span></summary>
+      <summary>
+        <span class="student-num">8.</span>
+        <strong><a href="https://scholar.google.com/citations?user=bIV6JQ0AAAAJ&hl=en" target="_blank">
+          Nitzan&nbsp;Bitton-Guetta</a></strong>
+        <small class="text-muted" style="margin-left:.35rem">(Ben-Gurion&nbsp;University&nbsp;of&nbsp;the&nbsp;Negev)</small>
+        <span class="badge-count">2</span>
+      </summary>
       <a class="paper-link" href="https://whoops-benchmark.github.io/" target="_blank">WHOOPS!</a>
       <a class="paper-link" href="https://visual-riddles.github.io/" target="_blank">Visual&nbsp;Riddles</a>
     </details>
 
     <!-- 9. Ron Yosef -->
     <details>
-      <summary><strong><a href="https://scholar.google.com/citations?hl=en&user=mhdOCG4AAAAJ" target="_blank">Ron&nbsp;Yosef</a></strong>
-        <span class="badge-count">2</span></summary>
+      <summary>
+        <span class="student-num">9.</span>
+        <strong><a href="https://scholar.google.com/citations?hl=en&user=mhdOCG4AAAAJ" target="_blank">
+          Ron&nbsp;Yosef</a></strong>
+        <small class="text-muted" style="margin-left:.35rem">(The&nbsp;Hebrew&nbsp;University&nbsp;of&nbsp;Jerusalem)</small>
+        <span class="badge-count">2</span>
+      </summary>
       <a class="paper-link" href="https://arxiv.org/abs/2303.15445" target="_blank">IRFL</a>
       <a class="paper-link" href="https://editinspector.github.io/" target="_blank">EditInspector</a>
     </details>
 
     <!-- 10. Oren Sultan -->
     <details>
-      <summary><strong><a href="https://scholar.google.com/citations?hl=en&user=KHBd12kAAAAJ" target="_blank">Oren&nbsp;Sultan</a></strong>
-        <span class="badge-count">1</span></summary>
+      <summary>
+        <span class="student-num">10.</span>
+        <strong><a href="https://scholar.google.com/citations?hl=en&user=KHBd12kAAAAJ" target="_blank">
+          Oren&nbsp;Sultan</a></strong>
+        <small class="text-muted" style="margin-left:.35rem">(The&nbsp;Hebrew&nbsp;University&nbsp;of&nbsp;Jerusalem)</small>
+        <span class="badge-count">1</span>
+      </summary>
       <a class="paper-link" href="https://arxiv.org/abs/2403.01139" target="_blank">ParallelPARC</a>
     </details>
 
     <!-- 11. Netta Madvil -->
     <details>
-      <summary><strong>Netta&nbsp;Madvil</strong>
-        <span class="badge-count">1</span></summary>
+      <summary>
+        <span class="student-num">11.</span>
+        <strong>Netta&nbsp;Madvil</strong>
+        <small class="text-muted" style="margin-left:.35rem">(The&nbsp;Hebrew&nbsp;University&nbsp;of&nbsp;Jerusalem)</small>
+        <span class="badge-count">1</span>
+      </summary>
       <a class="paper-link" href="https://arxiv.org/abs/2307.04532" target="_blank">Read,&nbsp;Look&nbsp;or&nbsp;Listen?</a>
     </details>
 
@@ -570,6 +623,7 @@
     </p>
   </div>
 </section>
+
 
     <!-- ─────────────────────────────────────────────────────────────
      PAPERS BY VENUE  (3-column grid • collapsible • year badges)
@@ -605,6 +659,16 @@
     <div class="section-heading">
       <h1>Papers by Venue</h1>
       <p class="text-muted mb-4">24&nbsp;peer-reviewed papers · 2021 – 2025</p>
+
+       <!-- global open/close -->
+      <button class="btn btn-sm btn-outline-primary toggle-btn"
+              onclick="toggleDetails('#papers-by-venue','open')">
+        Show&nbsp;All
+      </button>
+      <button class="btn btn-sm btn-outline-primary toggle-btn"
+              onclick="toggleDetails('#papers-by-venue','close')">
+        Collapse&nbsp;All
+      </button>
     </div>
 
     <!-- ======= YEAR GRID ======= -->
